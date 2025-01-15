@@ -1,0 +1,35 @@
+{
+  "name": "data-morph",
+  "version": "1.0.0",
+  "description": "Data morphing utilities",
+  "homepage": "https://github.com/muhsalaa/data-morph",
+  "bugs": {
+    "url": "https://github.com/muhsalaa/data-morph/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "data",
+    "morph",
+    "transform",
+    "structure"
+  ],
+  "author": "Muhammad Salma Abdul Aziz (https://emots.space)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhsalaa/data-morph.git"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
+  }
+}
