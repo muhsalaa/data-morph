@@ -1,1 +1,1 @@
-export { atteGrouping } from './utils/attGrouping.js';
+export { propsGrouping } from './utils/propsGrouping.js';

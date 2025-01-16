@@ -1,9 +1,9 @@
-type AttributeGroupingResult = {
+export type PropsGroupingResult = {
   [key: string]: any[];
 };
 
-type AttributeGroupingInput = {
-  [key: string]: any[];
+export type PropsGroupingInput = {
+  [key: string]: any;
 };
 
 /**
@@ -23,10 +23,10 @@ type AttributeGroupingInput = {
  * @param {Array<{[key: string]: any}>} input - an array of objects
  * @returns { {[key: string]: any[] } } - an object with arrays
  */
-export const atteGrouping = (
-  input: AttributeGroupingInput[],
-): AttributeGroupingResult => {
-  const result: AttributeGroupingResult = {};
+export const propsGrouping = (
+  input: PropsGroupingInput[],
+): PropsGroupingResult => {
+  const result: PropsGroupingResult = {};
 
   for (const obj of input) {
     for (const key in obj) {
